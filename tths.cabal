@@ -34,6 +34,7 @@ library
   build-depends:
       base >=4.7 && <5
     , hint
+    , scotty
   default-language: Haskell2010
 
 executable tths-exe
@@ -46,6 +47,7 @@ executable tths-exe
   build-depends:
       base >=4.7 && <5
     , hint
+    , scotty
     , tths
   default-language: Haskell2010
 
@@ -60,5 +62,6 @@ test-suite tths-test
   build-depends:
       base >=4.7 && <5
     , hint
+    , scotty
     , tths
   default-language: Haskell2010
